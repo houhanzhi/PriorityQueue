@@ -1,6 +1,7 @@
 1、PriorityQueue 一个基于优先级的无界优先级队列。优先级队列的元素按照其自然顺序进行排序，或者根据构造队列时提供的 Comparator 进行排序，具体取决于所使用的构造方法。
-该队列不允许使用 null 元素也不允许插入不可比较的对象(没有实现Comparable接口的对象)。
+
 2、PriorityQueue 队列的头指排序规则最小那个元素。如果多个元素都是最小值则随机选一个。
-3、PriorityQueue类在Java1.5中引入。PriorityQueue是基于优先堆的一个无界队列，这个优先队列中的元素可以默认自然排序或者通过提供的Comparator（比较器）在队列实例化的时排序。
- 要求使用Java Comparable和Comparator接口给对象排序，并且在排序时会按照优先级处理其中的元素。
+
+3、PriorityQueue类在Java1.5中引入。PriorityQueue是基于优先堆的一个无界队列，这个优先队列中的元素可以默认自然排序或者通过提供的Comparator（比较器）在队列实例化的时排序。该队列不允许使用 null 元素也不允许插入不可比较的对象(没有实现Comparable接口的对象)。
+ 
 4、PriorityQueue 是一个无界队列，但是初始的容量(实际是一个Object[])，随着不断向优先级队列添加元素，其容量会自动扩容，无需指定容量增加策略的细节。
